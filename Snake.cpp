@@ -9,7 +9,6 @@ using namespace std;
 #define MAXX 35
 #define MAXY 20
 
-
 void gotoxy( int column, int line );
 struct Point{
     int x,y;
@@ -74,8 +73,6 @@ int main()
 
     return 0;
 }
-
-
 
 
 void gotoxy( int column, int line )
