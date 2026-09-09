@@ -88,8 +88,6 @@ int main()
 }
 
 
-
-
 void gotoxy( int column, int line )
 {
     COORD coord;
