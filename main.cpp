@@ -58,6 +58,7 @@ void VeKhung(){
             }
 }
 
+// Xuat chuong trinh
 int main()
 {
     CONRAN r;
