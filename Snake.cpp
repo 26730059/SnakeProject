@@ -13,7 +13,6 @@ struct Point {
 
 enum class Direction { Right, Down, Left, Up };
 
-// Hop dong toa do chung cho ca nhom.
 const int BOARD_LEFT   = 2;
 const int BOARD_TOP    = 2;
 const int BOARD_RIGHT  = 45;
@@ -48,13 +47,12 @@ private:
 
 public:
     Snake() {
-        body.push_back({12, 10}); // dau
+        body.push_back({12, 10});
         body.push_back({11, 10});
         body.push_back({10, 10});
     }
 
     void grow() {
-    // Sau khi vua di chuyen, lap lai dot duoi de tang 1 dot.
     body.push_back(body.back());
     }
 
